@@ -1,0 +1,51 @@
+* {
+    font-family:monospace;
+        font-size: 11px;
+}
+
+pre {
+        font-family:monospace;
+        font-size: 11px;
+      background-color: #EEEEEE;
+
+      border: solid 1px #CCCCCC;
+      margin: 15px;
+      padding: 10px;
+      margin-top: 5px;
+      text-align:left;
+    
+}
+
+.parsed {background-color: #CCeeCC; }
+
+.red {background-color: #eeCCCC; }
+
+table {border: solid 1px silver;}
+table th {background-color: #CCCCCC; }
+table tr td {min-height: 36px;}
+
+.simple {font-family:monospace;
+        font-size: 11px;background-color: #EEEEEE; border: solid 1px #CCCCCC;
+
+margin: 15px;
+      padding: 10px;
+      margin-top: 5px;
+
+}
+
+.simple .title {
+    padding-bottom: 15px;
+    
+}
+
+.simple .players {
+    padding-bottom: 15px;
+    
+}
+
+.simple .preflop {
+    padding-bottom: 15px;
+    
+}
+
+.kolor {height: 12px; width: 12px;}

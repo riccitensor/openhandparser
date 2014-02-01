@@ -1,0 +1,194 @@
+/*------------------------------------------------------------------------------
+                      CSS style by Sławomir Kudła :-)
+------------------------------------------------------------------------------*/
+
+
+
+/*@font-face { font-family: test; src: url('/engine/core/basis/css/large9.ttf') format("truetype"); }*/
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: test, Verdana, Verdana_kopia, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 9px;
+    font-size: 12px;
+    text-decoration:none;
+    border: none;
+}
+
+body {  
+    color: #CCCCCC;
+    color: #000000; /* kolor czcionki */
+    background:#EEEEEE;    
+    background-repeat:repeat-x;
+    background-attachment:fixed;
+}
+
+A:link {text-decoration: none; color: #000000;}
+A:visited {text-decoration: none; color: #000000;}
+A:active {text-decoration: none}
+A:hover {text-decoration: none; color:#BBBBBB;
+            background-color: transparent;
+}
+
+div { border-style: solid; border-width: 0px; background: transparent; text-align: left;}
+
+input { width:200px; height:20px;
+        border-radius: 4px; 
+        -moz-border-radius:0.4em;
+        -khtml-border-radius:0.4em; 
+        border: solid 1px #888888;      
+        font:bold 0.75em arial,sans-serif; font-size:11px; font-weight:normal;
+        padding-left:5px; margin-top:3px; margin-bottom: 2px;
+        background-color:#E0E0E0;
+        color:black;
+}
+input:hover, input:active, input:focus {background-color:#E8E8E8;}
+input[type='checkbox'] { height: 16px; width: 16px; padding: 3px; border: solid 1px #888888;
+                         -moz-appearance:none;-webkit-appearance:none; -o-appearance:none; }
+input[type='submit'], input[type='button'] {box-shadow:2px 2px 3px rgba(0,0,0,0.6); cursor:pointer; margin-left: 2px; margin-top:4px; margin-bottom:3px; margin-right:3px; height: 20px; width: 130px; padding: 3px; background-color:silver; color:#FFFFFF; border:none;}
+input[type='submit']:hover, input[type='button']:hover {background-color:#888888;}
+input[type='submit']:focus, input[type='button']:focus {background-color:#888888;}
+
+
+input[type='text'] {}
+input[type='file'] {height:21px; padding: 0px; margin: 0px; -moz-appearance:none;}
+input[type='radio']{width: 16px; height: 16px;}
+input[type='image']{border: 0px; padding: 0px;}
+
+
+
+select {width:200px; height:20px;
+        border-radius: 4px; 
+        -moz-border-radius:0.4em;
+        -khtml-border-radius:0.4em; 
+        border: solid 1px #888888;      
+        font:bold 0.75em arial,sans-serif; font-size:11px; font-weight:normal;
+        padding-left: 3px; margin-top:3px; margin-bottom: 2px; 
+        background-color:#E0E0E0; color:black;
+         }
+select:hover, select:focus, select:active {background-color:#E8E8E8;}
+
+
+
+textarea {width:600px; height:200px;
+        border-radius: 4px; 
+        -moz-border-radius:0.4em;
+        -khtml-border-radius:0.4em; 
+        border: solid 1px #888888;      
+        font:bold 0.75em arial,sans-serif; font-size:11px; font-weight:normal;
+        padding-left: 5px; margin-top:3px; margin-bottom: 2px;
+        background-color:#E0E0E0; color:black;
+}
+textarea:hover, textarea:focus, textarea:active {background-color:#E4E4E4;}
+
+option { border:0px; border-color:#00c500; height:14px; }
+
+img { border: none; }
+
+table { text-align: left; width: 100%; border: 0px solid #666; border-collapse: collapse; }
+thead {height:21px; border-bottom:solid 1px silver;}
+th {text-align:left; font-weight: bold; font-size: 11px;}
+tr {height: 21px; border: 0px solid #666; }
+td {border: 0px solid #666; text-align:left; }
+tfoot {height:21px;}
+
+h1 { display:block; color:#000000; font-size: 17px; /*text-shadow: 2px 2px 0 #FF0000;*/}
+h2 { display:block; color:#555555; font-size: 12px; }
+h3 { display:block; color:#555555; font-size: 12px; }
+
+form {border: none;}
+
+hr {height: 1px; background-color: silver; margin-top: 15px; margin-bottom: 15px;vertical-align:middle;}
+
+pre { /*font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; */
+    
+        font-family:monospace;
+        font-size: 11px;
+      background-color: #EEEEEE;
+
+      border: solid 1px #CCCCCC;
+      margin: 15px;
+      padding: 10px;
+      margin-top: 5px;
+      text-align:left;
+}
+
+
+
+*::selection { background:#EEEEEE; color:#AAAAAA;}
+ 
+.pagi { font-weight:normal; line-height: 14px; margin-bottom: 0px;overflow: auto; margin-top: 7px; margin-bottom: 10px;}    
+.pagi a, .pagi .disabled, .pagi .thispage, .pagi li, .pagi .enabled {
+    height:15px; min-width: 22px; max-height: 15px;
+    padding-left: 3px; padding-right: 3px;padding-top: 1px; padding-bottom: 0px;
+    margin:3px;                
+    background-color: #cccccc; border:solid #CCCCCC 1px;
+    box-shadow:2px 2px 3px rgba(0,0,0,0.6);
+    float:left;  list-style-image:none;
+    list-style-type:none; 
+    cursor:pointer; text-align: center;
+    font-size: 10px;
+    font-style:normal; height: 300px;
+}
+
+.pagi li { border: solid 1px #777777; }
+.pagi a:hover {color: black;}
+.pagi .disabled {cursor:default; background-color: #eeeeee; border: solid 1px #AAAAAA; color: silver;}
+.pagi .thispage {cursor:default; background-color: #888888; border: solid 1px #AAAAAA; color: #FFFFFF;}
+.pagi .enabled { border:solid 1px #666666;}
+.pagi li:hover {position:relative; top:1px; left: 1px; box-shadow:0.5px 0.5px 1px rgba(0,0,0,0.6);}
+ 
+.lista {width:100%; margin: 0%;}
+.lista {border: solid 0px #006309;}
+.lista th {vertical-align: middle; background-color: #888888; padding-bottom: 2px; font-size:10px; color:white; font-weight:bold; padding-left:1px; padding-top:2px; padding-right:5px; height:10px;}
+/*.lista th span:hover {background-color: red;}*/
+
+.lista thead { border: solid 0px red;}
+.lista thead tr th { background: none; padding-bottom: 10px; }
+.lista thead tr { border-bottom: solid 0px red;}
+.lista thead tr:hover { border-bottom: solid 0px red;}   
+.lista tbody tr { border-bottom: solid 1px silver; height:23px;}
+/* wyciete background-color: #FFFFFF;*/
+
+.lista tbody tr:hover { background: rgba(0, 0, 0, 0.04); border-bottom: solid 1px silver;}      
+/* zamienione background-color: #F0F0F0; */
+
+.lista tbody td {font-size: 11px; font-style:normal; padding-left: 2px; padding-right: 2px; vertical-align: middle;} 
+.lista tfoot tr { background: rgba(255, 255, 255, 0.2); border-bottom: solid 0px greenyellow; border-top: solid 2px silver;}
+.lista tfoot tr:hover { background: rgba(255, 255, 255, 0.2); border-bottom: solid 0px greenyellow;}
+
+.prezentacja {margin-left: 2%; margin-right: 2%;}
+
+    .formularz { float: left; margin-left: 2%; margin-right: 2%;  width: 96%; float: none;}
+    .formularz thead {border: 0px; }
+    .formularz thead tr th:nth-child(1) { width: 30px; padding: 10px;}
+    .formularz thead tr th:nth-child(2) { width: 300px; padding: 10px;}
+    .formularz thead tr th:nth-child(3) { padding: 10px;}
+    .formularz tr th input[type='text'] { width: 100%; }
+
+#area {border: solid 0px red; overflow: auto; margin-left: 2%; margin-right: 2%; }
+
+
+/*#area {border: solid 0px red; overflow: auto; margin-left: 2%; margin-right: 2%; }*/
+
+.console {background-color: #333333; background-color: rgba(55,55,55,0.5); min-height: 60px; width: 1002px; color:greenyellow; font-size: 9px;}
+.console::selection {background-color: #505050; color:greenyellow;}
+.komunikat {border: solid 1px silver; background-color: #EEEEEE; margin:2%; padding: 10px;}
+.komunikat {border: solid 1px #BBBBBB; background-color: rgba(128,128,128,0.1); margin:2%; padding: 10px;}
+
+#contentAll{overflow: auto; width: 1000px;}
+
+.pointer {cursor:pointer; }
+/*.pointer:hover {background-color: red;}*/
+
+.karta_button { width: 600px; margin: 10px; overflow: auto;}    
+.karta {background-color: #EEEEEE; background-color: rgba(128,128,128,0.1);  border: solid 1px #CCCCCC;margin: 7px;
+        padding: 10px; margin-top: 5px; width: 600px; font-size: 11px; } 
+
+.karta tr:first-child td {  padding-top: 5px;}
+.karta tr:last-child td {padding-bottom: 5px;}
+.karta tr td { padding: 0px; padding-left: 7px; font-family:monospace; font-style:normal; }  
+.karta tr td:last-child {padding-right: 7px;}
