@@ -1,0 +1,4 @@
+openhandparser
+==============
+
+Poker hand parser
